@@ -1,0 +1,450 @@
+@font-face {
+    src: url("../fonts/Helvetica Neue LT Std 43 Light Extended.otf");
+    font-family: "HelveticaNeueLTStd43-Light";
+  }
+  @font-face {
+    src: url("../fonts/dahlia-regular.otf");
+    font-family: "Dahlia-Regular";
+  }
+@font-face {
+  src: url("../fonts/Syne-Regular.ttf");
+  font-family: "Syne-Regular";
+    }
+@font-face {
+  src: url("../fonts/Syne-Medium.ttf");
+  font-family: "Syne-Medium";
+    }
+@font-face {
+  src: url("../fonts/Syne-Semibold.ttf");
+  font-family: "Syne-Semibold";
+    }
+@font-face {
+  src: url("../fonts/Syne-Bold.ttf");
+  font-family: "Syne-Bold";
+    }
+
+
+a{
+    text-decoration: none;
+}
+
+p1{
+    font-family: "Syne-Medium";
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+header{
+    background-image: url(../imgs/img-gradient.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 780px;    
+}
+
+nav{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 51px;
+    margin-left: 77px;
+    position: fixed;
+    z-index: 1;
+
+    display: flex;
+    float: left;
+    width: 90%;
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+h1{
+    margin: 0 auto;
+    color: black;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 154px;
+    margin-left: 70px;
+    font-family: HelveticaNeueLTStd43-Light;
+    padding-top: 120px;
+
+    display: flex;
+    float: left;
+    width: 80%;
+}
+
+h2{
+    font-family: "Helvetica Neue LT Std";
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+p2{
+    margin: 0 auto;
+    color: black;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 154px;
+    margin-left: 56px;
+    font-family: "HelveticaNeueLTStd43-Light";
+
+    position: absolute;
+    width: 724px;
+    height: 192px;
+    left: 548px;
+    top: 202px;
+}
+
+p3{
+    margin: 0 auto;
+    color: black;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 125px;
+    font-family: "HelveticaNeueLTStd43-Light";
+    
+    position: absolute;
+    height: 144px;
+    left: 299px;
+    top: 410px;
+}
+
+p4{
+    margin: 0 auto;
+    color: black;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 154px;
+    margin-left: 56px;
+    font-family: "HelveticaNeueLTStd43-Light";
+
+    position: absolute;
+    width: 524px;
+    height: 168px;
+    left: 748px;
+    top: 490px;
+}
+
+span{
+    font-family: 'Dahlia';
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 192px;
+}
+
+.main{
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 107px;
+}
+
+.introduction-container{
+    width: 90%;
+    max-width: 1440px;
+    height: 509px;
+    margin-top: 80px;
+    margin-right: 56px;
+    margin-bottom: 225px;
+    margin-left: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+}
+
+#introduction{
+    display: flex;
+
+}
+
+#introduction-img{
+    width: 50%;
+    max-width: 1300px;
+    display: flex;
+    padding-top: 400px;
+}
+
+.introduction-text{
+    width: 50%;
+    max-width: 1300px;
+    font-family: "Syne";
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 56px;
+    width: 852px;
+}
+
+button1{
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 48px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding-left: 10px;
+}
+
+button1:hover{
+    color: #FD9575;
+}
+
+button2{
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 48px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+button2:hover{
+    color: #FD9575;
+}
+
+.get to know more{
+    margin-top: 1153px;
+    margin-right: 625px;
+    margin-bottom: 2343px;
+    margin-left: 504px;
+    padding-top: 44px;
+}
+
+.projects-container{
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    height: 1077px;
+    margin-bottom: 100px;
+}
+
+.title{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 875px;
+    padding-top: 82px;
+    color: #F5F5F5;
+}
+
+.projects{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 17px;
+    padding-top: 90px;
+
+}
+
+.project1{
+    width: 30%;
+    max-width: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project2{
+    width: 30%;
+    max-width: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project3{
+    width: 30%;
+    max-width: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-img{
+    width: 431px;
+    height: 576px;
+    cursor: pointer;
+}
+
+.project-info{
+    width: 431px;
+    height: 47px;
+    color: #F5F5F5;
+    cursor: pointer;
+    padding-top: 30px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    gap: -20px;
+}
+
+h3{
+    font-family: "Syne-Medium";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 56px;
+}
+
+h4{
+    font-family: "HelveticaNeueLTStd43-Light";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 56px;
+}
+
+h6{
+    font-family: "HelveticaNeueLTStd43-Light";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 56px;
+}
+
+#line{
+    width: 100%;
+    max-width: 431px;
+    background-color:#F5F5F5;
+    height: 1px;
+    margin-top: 22px;
+}
+
+#line1{
+    width: 100%;
+    max-width: 655px;
+    background-color:black;
+    height: 1px;
+    margin-top: 22px;
+}
+
+h5{
+    font-family: "Syne-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    border: 1px solid #000000;
+    padding: 8px 30px;
+    border-radius: 50px;
+}
+
+h5:hover{
+    color: #FD9575;
+    border: 1px solid #FD9575;
+}
+
+.title-experiencesandtools{
+    margin-left: 56px;
+}
+
+.tools{
+    width: 50%;
+    max-width: 514px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-top: 335px;
+}
+
+
+p5{
+    margin: 0 auto;
+    color: black;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Syne-Regular";
+}
+
+p5:hover{
+    color: #FD9575; 
+}
+
+.tools-experiences{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 157px;
+}
+
+.experiences{
+    width: 50%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+footer{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 178px;
+    margin-bottom: 66px;
+}
+
+#navfooter{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rrss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 66px;
+}
+
+@keyframes fade-up{
+    0%{
+        opacity: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
